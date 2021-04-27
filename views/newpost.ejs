@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criar novo post</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">Publicar nova notícia</span>
+    </nav>
+    <div class="container-fluid" style="padding: 30px">
+      <input
+        type="text"
+        id="title"
+        name="title"
+        placeholder="Titulo da notícia"
+      />
+      <input
+        type="text"
+        id="description"
+        name="description"
+        placeholder="Descricao da notícia"
+      />
+      <br />
+      <input
+        type="text"
+        id="imgurl"
+        name="imgurl"
+        placeholder="URL da imagem"
+      />
+      <input
+        type="text"
+        id="category"
+        name="category"
+        placeholder="Categoria da notícia"
+      />
+      <br />
+      <textarea
+        name="content"
+        id="content"
+        cols="60"
+        rows="10"
+        placeholder="Conteudo da noticia"
+      ></textarea>
+      <button onclick="publish()">Publicar</button>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site de notícias</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Site de notícias</span>
+      </div>
+    </nav>
+
+    <div class="container-fluid row row-cols-auto" style="padding: 50px; grid-gap: 30px; justify-content: center">
+
+      <% for (let item of data) {  %> 
+
+        <div class="card" style="width: 18rem; text-align: center; overflow: hidden">
+          <img
+            src=<%= item.imgurl %>
+            class="card-img-top"
+            alt="..."
+            style="height: 100%"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              <%= item.title %> 
+            </h5>
+            <p class="card-text">
+              <%= item.description %> 
+            </p>
+            <a href="http://192.168.15.158:5000/news/<%= item.id %> " class="btn btn-primary">Ler notícia</a>
+          </div>
+        </div>
+
+      <% } %> 
+
+      </div>
+    </div>
+  </body>
+</html>

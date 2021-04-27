@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=String(thisNews["title"])%></title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1"><%=thisNews['category']%> </span>
+    </nav>
+    <div class="container-fluid" style="margin-top: 30px">
+      <h1><%= thisNews.title %></h1>
+      <h5><%= thisNews.description %></h5>
+      <img src="<%= thisNews.imgurl %> " alt="" style="margin: 40px 0px" />
+      <p><%= thisNews.content %></p>
+    </div>
+  </body>
+</html>
