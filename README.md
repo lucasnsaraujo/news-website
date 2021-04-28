@@ -1,6 +1,6 @@
 # News Website
 
-:us: - A simple news website made for practicing Node.js and Express fundamentals
+:us: - A simple news website made for practicing Node.js and Express fundamentals   
 :br: - Um site de notícias feito para praticar fundamentos de Node e Express
 
 - Main page with image, title and subtitle
