@@ -21,5 +21,5 @@ BR - Um site de notícias feito para praticar fundamentos de Node e Express
 - node index.js (on the project's directory)
 
 ### Preview
-![News website in action](https://i.giphy.com/media/OybpyaWsUbShq8q0SG/giphy.mp4)
+![News website in action](https://media.giphy.com/media/OybpyaWsUbShq8q0SG/giphy.gif)
 
