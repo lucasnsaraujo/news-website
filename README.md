@@ -1,7 +1,7 @@
 # News Website
 
-US - A simple news website made for practicing Node.js and Express fundamentals
-BR - Um site de notícias feito para praticar fundamentos de Node e Express
+:us: - A simple news website made for practicing Node.js and Express fundamentals
+:br: - Um site de notícias feito para praticar fundamentos de Node e Express
 
 - Main page with image, title and subtitle
 - Click on read more to see full page and content
@@ -18,7 +18,10 @@ BR - Um site de notícias feito para praticar fundamentos de Node e Express
 
 ### How to install
 - Clone this repo
-- node index.js (on the project's directory)
+```
+node index.js
+```
+- It runs on port 5000
 
 ### Preview
 ![News website in action](https://media.giphy.com/media/OybpyaWsUbShq8q0SG/giphy.gif)
