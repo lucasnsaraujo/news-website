@@ -16,4 +16,8 @@ function publish() {
   fetch("http://192.168.15.158:5000/api/new", options).then((response) =>
     console.log(response)
   );
+  let page = document.getElementById("page");
+  page.innerHTML = "Notícia postada com sucesso";
+  page.innerHTML +=
+    "<a href='http://192.168.15.158:5000/'> Ir para a página principal <a/><br>";
 }
