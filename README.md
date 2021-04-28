@@ -7,7 +7,7 @@
 - Click on read more to see full page and content
 - /newpost  to write a new post
 
-### Technologies Used
+## Technologies Used
 - HTML
 - CSS
 - Bootstrap
@@ -16,13 +16,13 @@
 - Express
 - EJS
 
-### How to install
+## How to install
 - Clone this repo
 ```
 node index.js
 ```
 - It runs on port 5000
 
-### Preview
+## Preview
 ![News website in action](https://media.giphy.com/media/OybpyaWsUbShq8q0SG/giphy.gif)
 
